@@ -1,0 +1,87 @@
+$dark: #b18000;
+$info: #ca001d;
+$primary: #fcbf02;
+
+body {
+  font-family: 'Noto Sans TC', 'Noto Serif TC', 'Josefin Sans', serif, sans-serif;
+}
+.font-sans{
+  font-family: 'Noto Sans TC';
+}
+.font-noto{
+  font-family: 'Noto Serif TC';
+}
+.font-jose{
+  font-family: 'Josefin Sans';
+}
+.bg-primary-1 {
+  background-color: rgba(131, 116, 63, 0.1);
+}
+.bg-light-1 {
+  background-color: rgba(87, 71, 56, 0.1);
+}
+.bg-light-2 {
+  background-color: rgba(87, 71, 56, 0.2);
+}
+.bg-info-5 {
+  background-color: rgba(202, 0, 29, 0.5);
+}
+.bg-black {
+  background-color: #000000;
+}
+.spacing-5{
+  letter-spacing: 5px;
+}
+
+.fullHeight{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url('~@/assets/images/footer-img.jpg');
+  background-size: cover;
+  .col-12{
+    background: rgba(0, 0, 0, 0.3)
+  }
+}
+
+.text-black{
+  color: black;
+}
+.pointer{
+  cursor: pointer;
+}
+.close-alert{
+  right: 1rem
+}
+.cart-check {
+  min-height: 80vh;
+}
+// from cart.vue
+.cart-height{
+  min-height: 80vh;
+}
+.cart .row {
+  border-bottom: 1px solid $dark;
+}
+.fa-trash-alt {
+  color: $dark;
+  font-size: 1.5rem;
+}
+.icon-flex,
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-wrapper {
+  border: 1px solid $dark;
+  border-radius: 99rem;
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.5s;
+  &:hover {
+    background: $dark;
+    .fa-trash-alt {
+      color: white;
+    }
+  }
+}
