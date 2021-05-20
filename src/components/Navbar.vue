@@ -16,15 +16,16 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar">
-        <div class="navbar-nav">
-          <router-link to="/" class="nav-link pl-5">首頁</router-link>
-          <router-link to="/products" class="nav-link pl-5">低碳菜單</router-link>
-          <router-link to="/cart" class="nav-link pl-5">購物車
+        <div class="navbar-nav align-items-center align-items-md-end">
+          <router-link to="/" class="nav-link pl-5 text-light">首頁</router-link>
+          <router-link to="/products" class="nav-link pl-5 text-light">低碳菜單</router-link>
+          <router-link to="/cart" class="nav-link pl-5 text-light">購物車
             <i class="fas fa-shopping-cart"></i>
             <span class="badge badge-pill badge-primary"
             >{{ carts.length }}</span>
           </router-link>
-          <router-link to="/login" class="nav-link border border-secondary rounded-lg ml-5">
+          <router-link to="/login" class="nav-link border border-secondary text-secondary
+          rounded-lg mt-3 mt-xl-0 ml-5">
           後台登入</router-link>
         </div>
       </div>

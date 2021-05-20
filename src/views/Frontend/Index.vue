@@ -114,18 +114,21 @@
             <div class="col-4 text-center">
               <i class="fas fa-grin-wink"></i>
               <p class="mt-3">我們的團隊</p>
+              <hr class="border-dark">
               <h5 class="font-noto font-weight-bold text-dark">合作超過 5 年</h5>
               <p>團隊已合作超過五年，每個人都在愉快的環境中烹飪。</p>
             </div>
             <div class="col-4 text-center">
               <i class="fas fa-pepper-hot"></i>
               <p class="mt-3">我們的食材</p>
+              <hr class="border-dark">
               <h5 class="font-noto font-weight-bold text-dark">主廚親自挑選</h5>
               <p>與台灣小農與世界各地合作的食材與香料，順應自然，採用當令食材。</p>
             </div>
             <div class="col-4 text-center">
               <i class="fas fa-hand-holding-heart"></i>
               <p class="mt-3">我們的價值</p>
+              <hr class="border-dark">
               <h5 class="font-noto font-weight-bold text-dark">人類與地球和平健康</h5>
               <p>我們倡導健康飲食、地球友善。</p>
             </div>
