@@ -104,7 +104,7 @@ export default {
       this.axios.patch(api, tempCart)
         .then(() => {
           this.isLoading = false;
-          this.$bus.$emit('toast-message', '更新購物車成功', 'primary');
+          this.$bus.$emit('toast-message', '更新購物車成功', 'white');
         })
         .catch((err) => {
           this.isLoading = false;
@@ -121,7 +121,7 @@ export default {
         .then(() => {
           this.$bus.$emit('cartNumbers');
           this.isLoading = false;
-          this.$bus.$emit('toast-message', '成功刪除購物車項目', 'primary');
+          this.$bus.$emit('toast-message', '成功刪除購物車項目', 'white');
           this.getCarts();
         })
         .catch((err) => {
