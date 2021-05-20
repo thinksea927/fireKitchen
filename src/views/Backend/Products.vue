@@ -6,7 +6,7 @@
       <button class="btn btn-dark" @click="openModal('new')">+ 新增產品</button>
     </div>
     <table class="table border border-dark table-hover mt-3">
-      <thead class="bg-dark text-white rounded-sm">
+      <thead class="bg-dark text-black rounded-sm">
         <tr class="text-center">
           <th class="font-weight-light">分類</th>
           <th class="font-weight-light">產品名稱</th>
@@ -51,7 +51,7 @@
     >
       <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content border-0">
-          <div class="modal-header bg-dark text-white">
+          <div class="modal-header bg-dark text-black">
             <h5 class="modal-title" id="modalLabel"><span>新增產品</span></h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
@@ -195,7 +195,7 @@
     >
       <div class="modal-dialog" role="document">
         <div class="modal-content border-0">
-          <div class="modal-header bg-info text-white">
+          <div class="modal-header bg-info text-black">
             <h5 class="modal-title" id="delmodalLabel"><span>刪除產品</span></h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
@@ -361,7 +361,6 @@ export default {
         }
         this.$bus.$emit('toast-message', '新增圖片成功', 'black');
       }).catch((err) => {
-        console.log(err);
         this.$bus.$emit('toast-message', `新增圖片失敗喔!${err}`, 'info');
       });
     },

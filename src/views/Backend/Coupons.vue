@@ -213,7 +213,7 @@ export default {
             this.$http.patch(api, this.tempCoupon)
               .then(() => {
                 this.getCoupons();
-                this.$bus.$emit('toast-message', '已成功更新優惠券', 'success');
+                this.$bus.$emit('toast-message', '已成功更新優惠券', 'black');
                 this.isLoading = false;
               })
               .catch((err) => {
@@ -231,7 +231,7 @@ export default {
           .then(() => {
             this.getCoupons();
             this.isLoading = false;
-            this.$bus.$emit('toast-message', '已成功新增優惠券', 'success');
+            this.$bus.$emit('toast-message', '已成功新增優惠券', 'black');
           })
           .catch((err) => {
             this.isLoading = false;
@@ -263,7 +263,7 @@ export default {
         .then(() => {
           this.getCoupons();
           this.isLoading = false;
-          this.$bus.$emit('toast-message', '已成功刪除', 'success');
+          this.$bus.$emit('toast-message', '已成功刪除', 'black');
         })
         .catch((err) => {
           this.isLoading = false;

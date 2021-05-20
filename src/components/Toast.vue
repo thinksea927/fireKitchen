@@ -25,10 +25,11 @@
   right: 1rem;
   min-width: 15rem;
   z-index: 11000;
-  backdrop-filter: blur(5px);
 }
 .toast-custom{
-  background-color: #fcbf021c;
+  backdrop-filter: blur(5px);
+  // background-color: #fcbf021c;
+  background-color: #fcbf0278;
   border-radius: 0.5rem;
 }
 

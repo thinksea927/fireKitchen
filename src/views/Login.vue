@@ -78,11 +78,11 @@ export default {
         .then((res) => {
           const { token, expired } = res.data;
           document.cookie = `fireKitchenToken=${token};expires=${new Date(expired * 1000)};path=/`;
-          this.$bus.$emit('toast-message', '登入成功', 'success');
+          this.$bus.$emit('toast-message', '登入成功', 'white');
           this.$router.push('/admin/products');
         })
         .catch((err) => {
-          this.$bus.$emit('toast-message', `登入失敗 ${err}`, 'success');
+          this.$bus.$emit('toast-message', `登入失敗 ${err.message}`, 'black');
         });
     },
   },

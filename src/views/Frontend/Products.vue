@@ -15,7 +15,7 @@
     <main>
       <div class="hot-sale d-flex align-items-center text-center ">
         <div class="container">
-          <div class="blur text-white d-inline-block p-5 border border-dark">
+          <div class="blur text-white d-inline-block p-3 p-md-5 border border-dark">
             <span class="h3 bg-info rounded-lg px-5">好評熱賣中</span>
             <h2 class="font-noto font-weight-bold mt-3">鮮蔬沙拉碗每日現貨供應</h2>
             <h5 class="font-weight-light">嚴選當季產蔬菜，每日新鮮配送</h5>
@@ -117,9 +117,10 @@
 }
 .products .hot-sale {
   background-image: url("~@/assets/images/salad2.jpg");
-  background-position: center -16px;
+  background-position: center center;
   background-size: cover;
-  height: 40vh;
+  background-repeat: no-repeat;
+  height: 500px;
 }
 .blur{
   box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
@@ -191,7 +192,7 @@ export default {
           this.status.loadingItem = '';
           this.isLoading = false;
           this.$bus.$emit('cartNumbers');
-          this.$bus.$emit('toast-message', '加入購物車成功！', 'primary');
+          this.$bus.$emit('toast-message', '加入購物車成功！', 'white');
         })
         .catch((err) => {
           this.isLoading = false;

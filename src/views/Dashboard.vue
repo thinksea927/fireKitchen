@@ -107,6 +107,7 @@ export default {
     signout() {
       document.cookie = 'fireKitchenToken=;expires=; path=/';
       this.$router.push('/login');
+      this.$bus.$emit('toast-message', '你已登出', 'white');
     },
     backtoHome() {
       this.$router.push('/');
