@@ -1,4 +1,4 @@
-# keto-project
+# Fire Kitchen  
 
 ## Project setup
 ```
