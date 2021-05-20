@@ -1,4 +1,4 @@
-# F
+# Fire Kitchen  
 
 ## Project setup
 ```
