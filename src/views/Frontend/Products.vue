@@ -116,7 +116,7 @@
   text-transform: uppercase;
 }
 .products .hot-sale {
-  background-image: url("~@/assets/images/salad2.jpg");
+  background-image: url("~@/assets/images/salad.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

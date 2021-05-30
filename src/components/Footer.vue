@@ -44,7 +44,7 @@
 }
 .footer-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
-    url("~@/assets/images/footer-img2.jpg");
+    url("~@/assets/images/footer.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center 15rem;

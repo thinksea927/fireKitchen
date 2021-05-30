@@ -101,7 +101,7 @@
             <div class="col-12 col-md-6 d-flex align-items-center">
               <!-- <img src="/assets/images/antony2.png" class="antony-img" alt="" /> -->
               <div class="chef-img">
-                <img src="../../assets/images/chef1.png" alt="">
+                <img src="../../assets/images/chef.png" alt="">
               </div>
             </div>
           </div>
@@ -256,7 +256,7 @@ $primary: #fcbf02;
 }
 .header.index-header {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.5)),
-    url("~@/assets/images/valentin-b-kremer-S8BhJ0HB-WQ-unsplash.jpg");
+    url("~@/assets/images/index-banner.jpg");
   background-position: center center;
   background-size: cover;
   height: 58vh;

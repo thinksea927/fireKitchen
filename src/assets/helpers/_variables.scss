@@ -32,13 +32,10 @@ $grays: map-merge(
   ),
   $grays
 );
-// $scooter: #2bada8 !default;
 $amber: #fcbf02 !default;
 $firedark: #b18000 !default;
-// $firelight: #fecd29 !default;
 $ribbon: #ca001d !default;
 $emerald: #2f9e47 !default;
-// $oillight: #574738 !default;
 $blue: #007bff !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
@@ -55,10 +52,8 @@ $colors: map-merge(
   (
     "amber": $amber,
     "firedark": $firedark,
-    // "firelight": $firelight,
     "ribbon": $ribbon,
     "emerald": $emerald,
-    // "oillight": $oillight,
       "blue": $blue,
     "indigo": $indigo,
     "purple": $purple,
@@ -77,15 +72,13 @@ $colors: map-merge(
 );
 
 $primary: $amber !default;
-$info: $ribbon !default;
-// $light: $oillight !default;
 $dark: $firedark !default;
-// $warning: $firelight !default;
 // $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 // $success: $green !default;
 $success: $emerald !default;
 // $info: $cyan !default;
+$info: $ribbon !default;
 $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-400 !default;

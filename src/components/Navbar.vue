@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
     <div class="container">
       <router-link to="/" class="navbar-brand">
-        <img src="../assets/images/fire-logo2.png" alt="" class="fire-logo" />
+        <img src="../assets/images/fire-logo.png" alt="" class="fire-logo" />
       </router-link>
       <button
         class="navbar-toggler"
@@ -33,7 +33,7 @@
   </nav>
 </template>
 <style lang="scss">
-@import "~@/assets/main";
+// @import "~@/assets/main";
 .fire-logo {
   height: 80px;
 }
@@ -63,7 +63,7 @@ export default {
           this.carts = res.data.data;
         })
         .catch((err) => {
-          console.log(err.response.data.errors);
+          this.$bus.$emit('toast-message', `更新購物車數量失敗，請洽客服人員 02-8563253，錯誤訊息如下：${err.response.data.errors}`, 'info');
         });
     },
   },
