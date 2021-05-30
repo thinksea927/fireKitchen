@@ -326,7 +326,7 @@ export default {
           }
         });
       } else {
-        console.log('取不到產品id，請回報');
+        this.$bus.$emit('toast-message', '取不到產品id，請回報', 'info');
       }
       $('#delProductModal').modal('hide');
     },

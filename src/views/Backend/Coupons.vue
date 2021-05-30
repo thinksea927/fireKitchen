@@ -188,9 +188,7 @@ export default {
           this.tempCoupon = { ...item };
           // 使用 split 切割相關時間戳，返回陣列
           const deadlineAt = this.tempCoupon.deadline.datetime.split(' ');
-          console.log(deadlineAt);
           [this.due_date, this.due_time] = deadlineAt;
-          console.log(this.due_date);
           $('#couponModal').modal('show');
           break;
         }
