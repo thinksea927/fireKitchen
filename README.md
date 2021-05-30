@@ -1,5 +1,5 @@
 # Fire Kitchen  
-
+## [網站連結](https://thinksea927.github.io/fireKitchen/#/)
 ## Project setup
 ```
 npm install
