@@ -1,0 +1,1 @@
+.product-quantity input{width:5rem;border:0;border-top:1px solid grey;border-bottom:1px solid grey}.product-quantity button{border:1px solid grey}.product-quantity button:first-of-type{border-radius:5px 0 0 5px}.product-quantity button:nth-of-type(2){border-radius:0 5px 5px 0}.btn-light:disabled{border-color:#000}
