@@ -1,8 +1,8 @@
 <template>
-  <div class="fullHeight d-flex justify-content-center align-items-center">
+  <div class="login-bg d-flex justify-content-center align-items-center">
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-6 border border-dark rounded-lg py-5 px-5">
+        <div class="blur col-12 col-md-6 border border-dark rounded-lg py-5 px-5">
           <validation-observer v-slot="{ invalid }">
             <form @submit.prevent="signin">
               <div class="logo-text">
@@ -59,6 +59,16 @@
     </div>
   </div>
 </template>
+<style lang="scss">
+.login-bg{
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.5)),
+    url("~@/assets/images/login-bg.png");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+</style>
 <script>
 export default {
   data() {
