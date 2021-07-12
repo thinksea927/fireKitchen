@@ -9,7 +9,7 @@
 ---
 
 
-#### [Fire Kitchen 網站連結](https://thinksea927.github.io/fireKitchen/#/)
+#### [Fire Kitchen 網站連結link](https://thinksea927.github.io/fireKitchen/#/)
 
 ### 開發技術：
 * Vue.js 框架 / SPA 架構
